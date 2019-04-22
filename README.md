@@ -47,3 +47,5 @@ imageio ```pip install imageio```
 这个代码主要基于https://github.com/eriklindernoren/Keras-GAN)的实现，做了一些小小的修改更有demo效果。
 
 论文地址 [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)。
+
+博客地址 [深度学习：用生成对抗网络（GAN）来恢复高分辨率（高精度）图片 （附源码，模型与数据集）](https://blog.csdn.net/weixin_39274659/article/details/89459262)
