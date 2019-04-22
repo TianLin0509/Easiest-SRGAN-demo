@@ -42,3 +42,8 @@ imageio ```pip install imageio```
 运行**generate_GIF.py**
 
 * 所有测试数据默认存放在test_images文件夹下
+
+# 参考
+这个代码主要基于https://github.com/eriklindernoren/Keras-GAN)的实现，做了一些小小的修改更有demo效果。
+
+论文地址 [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)。
