@@ -240,6 +240,7 @@ class SRGAN():
 
     def test_images(self, batch_size=1):
         imgs_hr, imgs_lr = self.data_loader.load_data(batch_size, is_pred=True)
+        os.makedirs('saved_model/', exist_ok=True)
         self.generator.load_weights('./saved_model/' + str(2000) + '.h5')
         fake_hr = self.generator.predict(imgs_lr)
         r, c = imgs_hr.shape[0], 2
